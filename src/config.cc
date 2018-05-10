@@ -268,6 +268,7 @@ namespace Astroid {
     /* crypto */
     default_config.put ("crypto.gpg.path", "gpg2");
     default_config.put ("crypto.gpg.always_trust", true);
+    default_config.put ("crypto.gpg.throw_keyids", true);
 
     /* saved searches */
     default_config.put ("saved_searches.show_on_startup", false);
